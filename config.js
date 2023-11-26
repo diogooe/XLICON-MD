@@ -19,8 +19,8 @@ module.exports = {
   author:  process.env.PACK_AUTHER ||  'DIEGO BRANDO',
   packname:  process.env.PACK_NAME || 'DIEGO',
    
-  botname:   process.env.BOT_NAME === undefined ? "Xlicon-Md" : process.env.BOT_NAME,
-  ownername: process.env.OWNER_NAME === undefined ? 'diego' : process.env.OWNER_NAME,  
+  botname:   process.env.BOT_NAME === undefined ? "DIEGO" : process.env.BOT_NAME,
+  ownername: process.env.OWNER_NAME === undefined ? 'DIEGO' : process.env.OWNER_NAME,  
   auto_read_status :  process.env.AUTO_READ_STATUS === undefined ? false : process.env.AUTO_READ_STATUS,
   autoreaction:  process.env.AUTO_REACTION  === undefined ? false : process.env.AUTO_REACTION ,
   antibadword :  process.env.ANTI_BAD_WORD === undefined ? 'nbwoed' : process.env.ANTI_BAD_WORD,
